@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.appointment-item-container {
+  border: 1px solid #000000;
+  height: 90px;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+.appointment-content {
+  width: 100%;
+}
+.appointment-content-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-heading {
+  font-size: 14px;
+  font-weight: 600;
+  color: #171f46;
+  font-family: roboto;
+}
+.button {
+  border: none;
+  background-color: transparent;
+}
+.content-image {
+  height: 20px;
+  width: 20px;
+}
+.content-para {
+  font-size: 12px;
+  font-weight: 600;
+  color: #b5b7c4;
+  font-family: roboto;
+}
+@media screen and (min-width: 768px) {
+  .appointment-items-container {
+    flex-direction: row;
+  }
+  .appointment-item-container {
+    margin-right: 10px;
+    height: 100px;
+    width: 250px;
+  }
+}
